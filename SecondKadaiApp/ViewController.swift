@@ -9,7 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var textlabel: UITextField!
+    
     @IBAction func unwind(_ segue: UIStoryboardSegue){
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let resultViewController:ResultViewController = segue.destination as! ResultViewController
+        resultViewController.x=textlabel.text!
     }
     override func viewDidLoad() {
         super.viewDidLoad()

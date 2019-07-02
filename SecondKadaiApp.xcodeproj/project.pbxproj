@@ -12,6 +12,7 @@
 		D064BA5622CB3EF500B36705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064BA5422CB3EF500B36705 /* Main.storyboard */; };
 		D064BA5822CB3EF500B36705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D064BA5722CB3EF500B36705 /* Assets.xcassets */; };
 		D064BA5B22CB3EF500B36705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064BA5922CB3EF500B36705 /* LaunchScreen.storyboard */; };
+		D064BA8322CB565900B36705 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064BA8222CB565900B36705 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D064BA5722CB3EF500B36705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D064BA5A22CB3EF500B36705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D064BA5C22CB3EF500B36705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D064BA8222CB565900B36705 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		D064BA4422CB3EF400B36705 = {
 			isa = PBXGroup;
 			children = (
+				D064BA8222CB565900B36705 /* ResultViewController.swift */,
 				D064BA4F22CB3EF500B36705 /* SecondKadaiApp */,
 				D064BA4E22CB3EF500B36705 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				D064BA5322CB3EF500B36705 /* ViewController.swift in Sources */,
 				D064BA5122CB3EF500B36705 /* AppDelegate.swift in Sources */,
+				D064BA8322CB565900B36705 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R572RCVA7U;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R572RCVA7U;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
